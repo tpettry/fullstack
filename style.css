@@ -2,24 +2,22 @@
   Property: value;
 } */
 
-body {
-  background-image: url(trail_background.jpg);
-  background-size: cover;
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-a, li {
-  color: white;
-  list-style: none;
-  display: inline-block;
-}
-
-h2 {
-  color: #AA4B39;
+h1 {
+  font-family: fantasy;
+  font-size: 3em;
+  border-bottom: 2px solid pink;
+  border-right: 2px solid pink;
+  width: 400px;
   text-align: center;
-  border: 5px solid #FFB7AA;
-  cursor: pointer;
 }
-
-p {
-  color: pink;
+img {
+  width: 450px;
+  height: 300px;
+  margin: 10px;
 }
