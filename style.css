@@ -1,0 +1,25 @@
+/* Selector {
+  Property: value;
+} */
+
+body {
+  background-image: url(trail_background.jpg);
+  background-size: cover;
+}
+
+a, li {
+  color: white;
+  list-style: none;
+  display: inline-block;
+}
+
+h2 {
+  color: #AA4B39;
+  text-align: center;
+  border: 5px solid #FFB7AA;
+  cursor: pointer;
+}
+
+p {
+  color: pink;
+}
