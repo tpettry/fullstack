@@ -1,0 +1,29 @@
+JavaScript Types
+----------------
+<!-- 1. Number -->
+<!-- 2. String -->
+<!-- 3. Boolean -->
+<!-- 4. Undefined -->
+<!-- 5. Null -->
+<!-- 6. Symbol (new in ECMAScript 6)-->
+<!-- 7. Object -->
+
+JavaScript Comparisons
+----------------------
+<!--
+!==
+===
+>=
+<=
+>
+<
+-->
+
+JavaScript Variables
+--------------------
+<!-- var -->
+<!-- let (new in ECMAScript 6)-->
+<!-- const (new in ECMAScript 6)-->
+
+JavaScript Conditionals
+-----------------------
