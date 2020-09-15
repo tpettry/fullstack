@@ -1,0 +1,15 @@
+var name = "Billy";
+if (name === "Billy") {
+  alert("hi Billy!");
+} else if (name = "Susie") {
+  alert("hi Susie!");
+} else {
+  alert("I dont know you");
+}
+
+
+<!-- with logical operator -->
+var name = "Billy";
+if (name === "Billy" || name === "Anne") {
+  alert("Hi" + " " + name);
+}

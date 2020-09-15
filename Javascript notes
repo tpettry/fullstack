@@ -27,3 +27,20 @@ JavaScript Variables
 
 JavaScript Conditionals
 -----------------------
+<!-- if -->
+<!-- else -->
+<!-- else if -->
+<!-- ternary operator -->
+<!-- switch -->
+
+JavaScript Logical Operators
+----------------------------
+<!-- && -->
+<!-- || -->
+<!-- ! -->
+
+Javascript Functions
+--------------------
+<!-- var a = function name() {} -->
+<!-- function name() {} -->
+<!-- return -->
