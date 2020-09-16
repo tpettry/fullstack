@@ -1,3 +1,6 @@
+Remember "rubber ducky" and DRY "Don't repeat yourself"
+
+
 JavaScript Types
 ----------------
 <!-- 1. Number -->
@@ -44,3 +47,15 @@ Javascript Functions
 <!-- var a = function name() {} -->
 <!-- function name() {} -->
 <!-- return -->
+
+JavaScript Data Structures
+--------------------------
+<!-- Array -->
+<!-- Object -->
+
+JavaScript Looping
+------------------
+<!-- for -->
+<!-- while -->
+<!-- do -->
+<!-- forEach ( new in ECMAScript 5) -->
