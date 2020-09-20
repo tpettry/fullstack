@@ -1,0 +1,41 @@
+// this is more dynamic because fo property name and value like name = john
+//vs list is just values
+var user = {
+  name: "John",
+  age: 34,
+  hobby: "Soccer",
+  isMarried: false,
+  spells: ["abrakadra", "shazam", "boo"]
+// function inside of an object is called a method
+  shout: function() {
+    console.log("AHHHHHHH!");
+  }
+};
+
+//to get value from object
+user.name = John
+
+//To add value to an Object
+user.favoriteFood = "Spinach";
+//change values in an object
+user.isMarried = true;
+
+//Could have object inside of an array
+var list = [
+  {
+    username: "andy",
+    password: "secret"
+  },
+  {
+    username: "jess",
+    password: "123"
+  }
+];
+
+//Get a value from spells
+user.spells[1]; //this would get me shazam
+
+//To get a value from a list with an object in it
+list[0].password //this would give me "secret"
+
+//we can create empty arrays and objects
