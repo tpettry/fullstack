@@ -1,5 +1,0 @@
-DOM(Document Object Model)
-
-Document>RootElement(html)>Element(head), (body)
-
-Window is the parent object of Document
