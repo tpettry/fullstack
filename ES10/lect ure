@@ -1,0 +1,26 @@
+const array = [1,[2,3],[4,5]]
+array.flat()// this will produce a flat array
+
+ const entries = ['bob', 'sally',,,,,,,,,'cindy']
+ entries.flat()//will automatically clean up the array
+
+
+
+ const jurassicParkChaos = jurassicPark.flatMap(ceature => creature + 'Trex')//this will flatten the array and add a Trex with each group
+
+
+ const userEmail1 = '        eddytheeagle@gmail.com'
+ const userEmail2 = 'jonnydangerous@gmail'
+console.log(userEmail1.trimStart())
+console.log(userEmail2.trimEnd())
+
+
+userProfiles = [['commanderTom', 23], ['derekZlander', 40], ['hansel', 18]]
+Object.fromEntries(userProfiles)
+
+//it will try the code and if it errors out then the code under catch will run
+try {
+  4 +5
+} catch {
+  console.log('you messed up')
+}

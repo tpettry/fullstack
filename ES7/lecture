@@ -1,0 +1,6 @@
+//includes example
+const pets = ['cat', 'dog', 'bat'];
+pets.includes('dog')// this would produce true
+
+//expontential
+const square = (x) => x**2; //this is x^2

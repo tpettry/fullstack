@@ -1,0 +1,40 @@
+function sayHello() {
+  console.log("Hello");
+}
+
+
+var sayBye = function() {
+  console.log("Bye");
+}
+
+sayBye();
+
+// Example of DRY
+function sing() {
+  console.log("AHHHHHHHHHHHHHH");
+  console.log("TEEEEEEEEEEEEEE");
+}
+
+
+function sing2() {
+  console.log("laaa deeee daaaa");
+  console.log("laaaa");
+}
+
+//Example of using arguments to avoid DRY
+function singlyrics (song) {
+  var line1 = prompt("versus 1");
+  var line2 = prompt("versus 2");
+  var line3 = prompt("versus 3");
+  console.log(line1, line2, line3);
+}
+
+function multiply(a, b) {
+  if(a > 10 || b > 10){
+    return "that's too hard";
+  }else {
+      return a * b;
+  }
+}
+
+multiply(5, 10);

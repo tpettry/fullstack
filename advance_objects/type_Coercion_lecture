@@ -1,0 +1,6 @@
+1 == '1' //would produce true because Javascript coercion the string value to a num
+
+1 === '1' //would produce false since === would force the num and string do not coercion
+
+//reference pages for coercion https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness
+//https://262.ecma-international.org/5.1/#sec-11.9.3

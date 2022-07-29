@@ -1,0 +1,47 @@
+//examples of pass by value
+var a = 5;
+var b = a;
+
+//this will add 1 to b
+b++;
+
+console.log(a); //would produce 5
+console.log(b); //would produce 6
+
+//examples of pass by reference
+let obj1 = {name: 'Yao', password: '123'};
+let ob2 = obj1;
+
+obj2.password = 'easypeasy'
+
+console.log(obj1)//password changed for both obj1 and obj2 because of pass by reference
+console.log(obj2)
+
+var c = [1,2,3,4,5];
+var d = c;
+d.push(18765434)
+console.log(d)//would produce the same answer as c with large number added to the array
+console.log(c)
+
+ //cloning an object
+ let obj = {a: 'a', b: 'b', c: 'c'};
+ let clone = Object.assign({}, obj);
+
+ obj.c = 5;
+ console.log(clone);//produces the obj not changed with value 5
+
+ //another way
+ let clone2 = {...obj};
+ console.log(clone2)//will produce the same as clone
+
+ //deep cloning
+ let objDeep = {
+   a: 'a',
+   b: 'b',
+   c: {
+     deep: 'try to copy me'
+   }
+ };
+
+ let superClone = JSON.parse(JSON.stringify(objDeep));
+ console.log(superClone);//this will produce the deep clone 

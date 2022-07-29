@@ -1,0 +1,38 @@
+function first() {
+    var greet = 'Hi';
+    function second() {
+      alert(greet);
+    }
+    return second;
+}
+
+var newFunc = first();
+newFunc();
+
+//new way of writing code
+const first = () => {
+    const greet = 'Hi';
+    const second = () => {
+      alert(greet);
+    }
+    return second;
+}
+
+const newFunc = first();
+newFunc();
+
+//closures the child scope has access to the parent scope even after the functino ran
+
+//Currying
+const multiply = (a, b) => a * b;
+const curriedMultiply = (a) => (b) => a * b;
+curriedMultiply(3)(4);
+
+//compose
+const compose = (f, g) => (a) => f(g(a));
+
+const sum = (num) => num + 1;
+
+compose (sum, sum)(5); // this produces 7 as an answer
+
+//Avoiding Side Effects, Functional Purity.
